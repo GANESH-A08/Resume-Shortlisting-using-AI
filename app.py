@@ -8,7 +8,7 @@ import os
 import json
 
 # --- CONFIGURATION ---
-GEMINI_API_KEY = "REPLACE WITH YOUR API KEY"
+GEMINI_API_KEY = "AIzaSyBxGI-B2zdNq9HcxUD4qHmLk5BKbqqhMt0"
 genai.configure(api_key=GEMINI_API_KEY)
 
 st.set_page_config(
@@ -272,3 +272,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
